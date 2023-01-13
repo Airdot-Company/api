@@ -1,0 +1,29 @@
+{
+  "name": "your_package",
+  "version": "1.0.0",
+  "description": "Your package's description",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist/ & tsc",
+    "test": "node ./tests/index.js",
+    "dev": "yarn build && yarn test",
+    "install": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user/repo.git"
+  },
+  "keywords": [],
+  "author": "Turtlepaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/user/repo/issues"
+  },
+  "homepage": "https://github.com/user/repo#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
