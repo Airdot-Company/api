@@ -1,7 +1,7 @@
 {
-  "name": "your_package",
+  "name": "@airdot/api",
   "version": "1.0.0",
-  "description": "Your package's description",
+  "description": "Collection of Airdot's API wrappers",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist/ & tsc",
@@ -11,17 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user/repo.git"
+    "url": "git+https://github.com/Airdot-Company/api.git"
   },
-  "keywords": [],
+  "keywords": [
+    "airdot",
+    "airdot-api"
+  ],
   "author": "Turtlepaw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/user/repo/issues"
+    "url": "https://github.com/Airdot-Company/api/issues"
   },
-  "homepage": "https://github.com/user/repo#readme",
+  "homepage": "https://github.com/Airdot-Company/api#readme",
   "dependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "wretch": "^2.3.2"
   },
   "devDependencies": {
     "@types/node": "^18.11.18"

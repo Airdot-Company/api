@@ -1,1 +1,2 @@
-// The index file, export classes, types, etc here
+export { Routes } from "./types/BeepBoop";
+export { BeepBoopClient } from "./classes/BeepBoop";
